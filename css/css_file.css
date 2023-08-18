@@ -1,0 +1,253 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/**Vamos passar a trabalhar com esta navbar**/
+.navbar{
+    height: 70px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background: rgb(39, 38, 38);
+
+}
+
+/**O flex vai determinar o tamanho do que o h1 vai ocupar**/
+.logo{
+    flex: 20%; 
+    /* border: 1px solid red;  */
+    text-align:center;
+    margin-left: 5%;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(43, 41, 41);
+    border-radius: 5px;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+.menu{
+    flex: 70%;
+    /* border: 1px solid green; */
+    text-align: right;
+    padding: 20px;
+}
+.menu a{
+    color: white;
+    font-size: 17px;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: rgb(163, 178, 245);
+    border-top: rgb(0, 20, 0);
+}
+
+#botao{
+    background: none;
+    text-decoration: none;
+    color: white;
+    font-size: 29px;
+    border:none;
+}
+
+#botao:hover{
+    cursor:pointer;
+}
+
+
+/* Fim do navbar */
+
+/* Header (Entrada principal do site) */
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background: rgb(39, 38, 38);
+}
+
+.headline{
+    flex: 40%;
+    margin-left: 10%;
+    /* border: 1px solid black; */
+    width: 550px;
+}
+
+.headline h2{
+    font-weight: 900;
+    padding:0;
+    margin:0;
+    font-size: 18px;
+    color: white;
+}
+#hc{
+    font-size: 80px;
+}
+
+#bv{
+    font-size:18px;
+}
+
+
+.headline p{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 19px;
+}
+
+#portalimg{
+    width: 450px;
+    height: 450px;
+    border: none;
+    float: right;
+}
+
+.imdiv{
+    margin-right: 10%;
+    width: 450px;
+}
+/* Fim do header */
+
+/* Agora vamos ao section */
+.section{
+    margin-top: 80px;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+    text-align: center;
+    padding: 5%;
+    /* width: 90%; */
+}
+
+.section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+}
+
+.services{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.section h3{
+    color: rgb(69, 69, 252);
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid rgb(190, 189, 189);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card:hover{
+    border: 1px solid rgb(73, 73, 73);    
+}
+.card a{
+    text-decoration: none;
+}
+/* Fim do nosso section */
+
+/* Início do nosso footer */
+
+.foot{
+    margin-top: 100px;
+    height: 320px;
+    text-align: center;
+    border-top: 5px solid black;
+    background: rgb(39, 38, 38);
+}
+.divpai{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.rodape{
+    padding: 100px;
+    float: left;
+}
+
+.rodape p{
+    color:white;
+    font-size: 20px;
+}
+
+.divpai h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    font-size: 34px;
+    text-align: left;
+}
+
+.rodape img{
+    margin-right: 10px;
+    float: left;
+    margin-top: 20px;
+    width: 55px;
+    height: 55px;
+}
+
+#instaimg{
+    float: left;
+    border: none; 
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+#instadofoot2{
+    border: none; 
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+#foot2div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#iglink{
+    float: left; 
+    margin-top: 12px; 
+    text-decoration: none;
+    color:white;
+    font-size: 19px;
+}
+
+#iglink:hover{
+    color:rgb(163, 178, 245);
+}
+.negrito{
+    font-size: 19px;
+}
+#linkdofoot2:hover{
+    cursor:pointer;
+}
+/* FIm do footer */

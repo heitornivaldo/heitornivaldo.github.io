@@ -1,0 +1,302 @@
+@media screen and (min-width:1339px){
+    .bar{
+        display:none;
+        box-shadow: none;
+    }
+    #menuitems{
+        display: none;
+    }
+    #menu2{
+        display:none;
+    }
+}
+@media screen and (max-width:1338px){
+    .menu{
+        display: none;
+    }
+    .logo{
+        margin-left: 10%;
+        text-align: start;
+    }
+    .bar{
+        text-align: end;
+        margin-right: 10%;
+        padding: 0%;
+        box-shadow: none;
+    }
+    .header{
+        padding-top: 100px;
+    }
+    .headline{
+        flex:100%;
+        margin:5%;
+        text-align: center;
+    }
+    .headline p{
+        text-align: center;
+    }
+    .imdiv{
+        flex:100%;
+        margin:5%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        width: 100%;
+    }
+    #botao{
+        font-size: 27px;
+    }
+    #menu2 {
+        z-index: 2;
+        float:right;
+    }
+
+    #menu2-bar {
+    width: 45px;
+    height: 50px;
+    margin: 30px 50px 20px 0px;
+    cursor: pointer;
+    }
+
+    .bar {
+    height: 6px;
+    width: 100%;
+    background-color: black;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    }
+
+    #bar1 {
+    transform: translateY(-4px);
+    }
+
+    #bar3 {
+    transform: translateY(4px);
+    }
+
+    .nav {
+    transition: 0.3s ease;
+    display: none;
+    background: black;
+    }
+
+    .nav ul {
+    padding: 0 22px;
+    }
+
+    .nav li {
+    list-style: none;
+    padding: 12px 0;
+    }
+
+    .nav li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    }
+
+    .nav li a:hover {
+    font-weight: bold;
+    }
+
+    .menu-bg, #menu2 {
+    top: 0;
+    right: 0;
+    position: fixed;
+    }
+
+    .menu-bg {
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    background: radial-gradient(square, black, black);
+    border-radius: 50%;
+    transition: 0.3s ease;
+    }
+
+    .change {
+    display: block;
+    }
+
+    .change .bar {
+    background-color: black;
+    }
+
+    .change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+    }
+
+    .change #bar2 {
+    opacity: 0;
+    }
+
+    .change #bar3 {
+    transform: translateY(-6px) rotateZ(45deg);
+    }
+
+    .change-bg {
+    width: 520px;
+    height: 460px;
+    transform: translate(-60%,-30%);
+    }
+}
+
+@media screen and (max-width: 878px){
+    .foot{
+        display:none;
+    }
+    .rodape{
+        text-align: center;
+    }
+    .divpai{
+        margin-bottom: 8%;
+        padding-top: 0%;
+    }
+    .negrito{
+        font-size: 17px;
+    }
+    .social{
+        padding-left: 10%;
+    }
+    #icon{
+        width:40px;
+        height:40px; 
+    }
+    #botao{
+        font-size: 27px;
+    }
+    #menuitems.show{
+        display: block;
+    }
+    #menuitems{
+        display: none;
+    }
+    .menu{
+        display:none;
+    }
+    #foot2{
+        display:block;
+        border-top: 5px solid black;
+        background: rgb(39, 38, 38);
+    }
+    #pardiv{
+        text-align: center;
+        color: white;
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 696px){
+    #hc{
+        font-size: 60px;
+    }
+    #pardiv{
+        text-align: center;
+        color: white;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 504px){
+    #hc{
+        font-size: 40px;
+    }
+
+    #bv{
+        font-size: 14px;
+    }
+    .headline p{
+        font-size: 17px;
+    }
+    .headline{
+        padding-top: 0px;
+        margin-top: 5px;
+    }
+    #menuitems.show{
+        display: block;
+    }
+    #menuitems{
+        display: none;
+    }
+    #pardiv{
+        text-align: center;
+        color: white;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    #portalimg{
+        width:400px;
+        height:400px;
+    }
+    #icon{
+        width:40px;
+        height:40px;
+    }
+    .foot{
+        height:565px;
+    }
+    .social{
+        padding-left: 20%;
+    }
+    #botao{
+        font-size: 25px;
+    }
+    #menuitems.show{
+        display: block;
+    }
+    #menuitems{
+        display: none;
+    }
+    #pardiv{
+        text-align: center;
+        color: white;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:416px){
+    .social{
+        padding-left: 30%;
+    }
+    #icon{
+        width:20px;
+        height:20px; 
+    }
+    #portalimg{
+        width:250px;
+        height:250px;
+    }
+    .rodape{
+        text-align: center;
+    }
+    .social{
+        padding-left:25%;
+    }
+    .negrito{
+        font-size: 14px;
+    }
+    #botao{
+        font-size: 25px;
+    }
+    #menuitems.show{
+        display: block;
+    }
+    #menuitems{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 878px) {
+    #foot2{
+        display: none;
+    } 
+}
